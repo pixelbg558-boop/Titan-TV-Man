@@ -12,7 +12,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "idle",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -27,7 +27,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "Made by Pixel BG!",
         // Activity type number (0 = Playing).
-        type: 1, 
+        type: 0, 
       },
     ],
   },
